@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6e6161;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f201f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c1f1c;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 900px;
+}
+
+.info-lateral {
+    background-color: #424642;
+    color: rgb(243, 9, 9);
+    padding: 20px;
+    width: 30%;
+    
+}
+
+.info-lateral h2 {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.info-lateral p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid green
+}
+
+.confirmation-message {
+    display: none;
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.new-form-button {
+    display: none;
+    margin-top: 20px;
+}
+
+.new-form-button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-form-button button:hover {
+    background-color: #45a049;
+}
